@@ -1,0 +1,59 @@
+@use "../../css/_colors.scss";
+
+.cartContainer {
+  width: 100vw;
+  min-height: 100vh;
+
+  .cart-remove-btn {
+    width: 25px !important;
+    height: 25px !important;
+  }
+
+  a {
+    padding-left: 0 !important;
+  }
+
+  .cart-arrow-icon {
+    margin-right: 0.5rem;
+  }
+
+  .card {
+    margin: 15px 0 15px 0;
+  }
+
+  .btn {
+    background: none !important;
+    border: none !important;
+    padding: 0.5rem !important;
+  }
+}
+
+@media only screen and (min-width: 770px) and (max-width: 1200px) {
+  .cartContainer {
+    .card {
+      * {
+        font-size: 14px !important;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .cartContainer {
+    .card {
+      * {
+        font-size: 10px !important;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .cartContainer {
+    .card {
+      * {
+        font-size: 8px !important;
+      }
+    }
+  }
+}

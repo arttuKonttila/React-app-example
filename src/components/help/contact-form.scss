@@ -1,0 +1,63 @@
+@use "../../css/colors";
+
+.help {
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 100vh !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  .title-holder {
+    text-align: center !important;
+    margin: 0 0 40px !important;
+  }
+
+  #contact {
+    width: 75%;
+    height: 75%;
+    max-width: 1000px !important;
+
+    .contact-form {
+      margin: 0 0 60px !important;
+    }
+
+    .row {
+      margin: 0 0 25px !important;
+
+      .btn-holder {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+      }
+    }
+
+    textarea {
+      min-height: 25vh !important;
+    }
+
+    .btn {
+      background-color: colors.$nav-bg;
+      color: colors.$nav-text-color;
+      transition: opacity 0.3s ease-in-out;
+    }
+
+    .btn:hover {
+      opacity: 0.8;
+    }
+
+    .form-control:focus {
+      border-color: colors.$nav-bg !important;
+      box-shadow: 0 0 0 0.1rem colors.$nav-bg !important;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  #contact {
+    width: 100% !important;
+    input {
+      margin: 0 0 25px !important;
+    }
+  }
+}

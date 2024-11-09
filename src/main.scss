@@ -1,0 +1,95 @@
+@use "./css/_typography.scss";
+@use "./css/_colors.scss";
+
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box !important;
+  font-family: Lato;
+  font-weight: 400;
+}
+
+#root {
+  min-height: 100vh;
+  max-width: 100vw;
+  overflow: hidden;
+
+  .btn {
+    svg {
+      transition: opacity 0.3s ease-in-out !important;
+    }
+  }
+
+  a {
+    transition: opacity 0.3s ease-in-out !important;
+  }
+
+  a:hover {
+    text-decoration: none !important;
+    opacity: 0.6 !important;
+  }
+
+  .btn:hover {
+    svg {
+      opacity: 0.6 !important;
+    }
+    .cart-btn:after {
+      opacity: 0.3 !important;
+    }
+  }
+}
+
+.content {
+  background-color: colors.$main-bg;
+  min-height: 100vh;
+  max-width: 100vw;
+
+  * {
+    color: colors.$content-text-color;
+  }
+
+  h1 {
+    font-weight: 900;
+  }
+
+  h2,
+  a {
+    font-weight: 700 !important;
+  }
+
+  h3 {
+    font-weight: 400;
+  }
+
+  .heroImg {
+    max-height: 100vh !important;
+  }
+}
+
+@media only screen and (max-width: 499px) {
+  .content {
+    margin: 75px 0 400px 0;
+  }
+  .fixed-top {
+    height: 75px !important;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 1200px) {
+  .content {
+    margin: 75px 0 400px 0;
+  }
+  .fixed-top {
+    height: 75px !important;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .content {
+    margin: 75px 0 400px 0;
+  }
+  .fixed-top {
+    height: 75px !important;
+  }
+}

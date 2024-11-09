@@ -1,0 +1,159 @@
+@use "../../css/_colors.scss";
+
+%cartCount {
+  content: attr(value);
+  font-size: 12px;
+  color: #fff;
+  background: red;
+  border-radius: 50%;
+  padding: 0 5px;
+  position: relative;
+  left: -8px;
+  top: -10px;
+  opacity: 0.9;
+  transition: opacity 0.3s ease-in-out;
+}
+
+// Navbar
+.main-nav {
+  background-color: colors.$nav-bg !important;
+
+  .nav-item:hover {
+    background-color: #0f131a;
+  }
+
+  a {
+    color: colors.$nav-text-color !important;
+  }
+
+  .logo {
+    max-width: 5rem !important;
+  }
+
+  .navbar-collapse {
+    flex-grow: 0 !important;
+  }
+
+  .navbar-expand-lg .nav-collapse {
+    display: flex !important;
+    flex-basis: auto !important;
+  }
+
+  .canvas-btn,
+  .cart-btn {
+    border: none !important;
+    background-color: transparent !important;
+    color: colors.$nav-text-color !important;
+    opacity: 1;
+    font-size: 1.5rem;
+    position: relative;
+  }
+
+  .cart-btn:after {
+    @extend %cartCount;
+  }
+}
+
+.canvas-btn {
+  display: none !important;
+}
+
+// Offcanvas nav
+.offcanvas {
+  background-color: #0f131a !important;
+  color: colors.$nav-text-color !important;
+
+  .collapse {
+    width: 100% !important;
+    border-radius: 5% !important;
+    text-align: center;
+  }
+
+  .navbar-toggler {
+    color: colors.$nav-text-color !important;
+    border: none !important;
+    font-size: 1.25rem !important;
+    font-weight: 900;
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: none !important;
+  }
+
+  .canvas-close-btn,
+  .canvas-cart-btn {
+    border: none !important;
+    background-color: transparent !important;
+    color: colors.$nav-text-color !important;
+    opacity: 1;
+    font-size: 1.5rem;
+  }
+
+  .canvas-cart-btn:after {
+    @extend %cartCount;
+  }
+
+  .cartCount {
+    @extend %cartCount;
+    left: 40px !important;
+    top: 23px !important;
+  }
+
+  .nav-item {
+    a {
+      color: colors.$nav-text-color !important;
+      font-size: 1.25rem !important;
+      font-weight: 900;
+      text-align: center;
+      transition: opacity 0.3s ease-in-out !important;
+    }
+  }
+
+  .nav-item:hover {
+    a {
+      text-decoration: none !important;
+      opacity: 0.6 !important;
+    }
+  }
+
+  .btn {
+    svg {
+      transition: opacity 0.3s ease-in-out !important;
+    }
+  }
+
+  .btn:hover {
+    svg {
+      opacity: 0.6 !important;
+    }
+    .cart-btn:after {
+      opacity: 0.3 !important;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .offcanvas {
+    --bs-offcanvas-width: 250px !important;
+  }
+}
+
+@media (max-width: 700) {
+  .offcanvas {
+    --bs-offcanvas-width: 300px !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .nav-collapse {
+    display: none !important;
+  }
+
+  .canvas-btn {
+    display: block !important;
+  }
+
+  .cart-btn {
+    display: none !important;
+  }
+}
