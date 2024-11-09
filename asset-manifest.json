@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/React-app-example/static/css/main.2015e496.css",
+    "main.js": "/React-app-example/static/js/main.b8bf570f.js",
+    "static/media/Fashion-Sale2000 x 2000.svg": "/React-app-example/static/media/Fashion-Sale2000 x 2000.36b393a0679ea802e4e93e311f68e308.svg",
+    "static/media/Lato-Light.ttf": "/React-app-example/static/media/Lato-Light.c7400fcad9e48ca9043f.ttf",
+    "static/media/Lato-Regular.ttf": "/React-app-example/static/media/Lato-Regular.9d883d540ee2b4de8024.ttf",
+    "static/media/Lato-Bold.ttf": "/React-app-example/static/media/Lato-Bold.636be8de934918e38ed9.ttf",
+    "static/media/Lato-Thin.ttf": "/React-app-example/static/media/Lato-Thin.5a60dde25d817751d590.ttf",
+    "static/media/Lato-Black.ttf": "/React-app-example/static/media/Lato-Black.57dee8aface5572f9101.ttf",
+    "static/media/category-clothing.jpg": "/React-app-example/static/media/category-clothing.fae4ca274c7940ac14dc.jpg",
+    "static/media/logo-white.png": "/React-app-example/static/media/logo-white.1443c326574f6f793114.png",
+    "static/media/category-accessories.jpg": "/React-app-example/static/media/category-accessories.3ed1efc86c169e451295.jpg",
+    "static/media/category-apparel.jpg": "/React-app-example/static/media/category-apparel.5267e03f8a1f3d130e78.jpg",
+    "index.html": "/React-app-example/index.html",
+    "main.2015e496.css.map": "/React-app-example/static/css/main.2015e496.css.map",
+    "main.b8bf570f.js.map": "/React-app-example/static/js/main.b8bf570f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2015e496.css",
+    "static/js/main.b8bf570f.js"
+  ]
+}
