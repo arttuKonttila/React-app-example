@@ -42,10 +42,10 @@ npm install
 npm start
 ```
 
-5. Open the application in your browser:
-   ```
-   http://localhost:3000
-   ```
+4. Open the application in your browser:
+```
+http://localhost:3000
+```
 
 ## Author
 This project was developed by Arttu Konttila, a 4th-year Information and Communication Technology student at JAMK University of Applied Sciences.
