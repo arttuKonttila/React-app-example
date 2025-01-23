@@ -28,21 +28,21 @@ This project was built using the following technologies:
 To run this project locally:  
 
 1. Clone the repository:  
-   ```bash
-   git clone https://github.com/yourusername/react-ecommerce.git
-   cd react-ecommerce
-   ```
+```
+git clone https://github.com/yourusername/react-ecommerce.git
+cd react-ecommerce
+```
 
 2. Install dependencies:
-  ```bash
-  npm install
-   ```
+```
+npm install
+```
 3. Start the development server:
-   ```bash
-   npm start
-   ```
+```
+npm start
+```
 
-4. Open the application in your browser:
+5. Open the application in your browser:
    ```
    http://localhost:3000
    ```
