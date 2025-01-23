@@ -31,23 +31,24 @@ To run this project locally:
    ```bash
    git clone https://github.com/yourusername/react-ecommerce.git
    cd react-ecommerce
-
+   ```
 
 2. Install dependencies:
   ```bash
   npm install
-
+   ```
 3. Start the development server:
-
-```bash
-npm start
+   ```bash
+   npm start
+   ```
 
 4. Open the application in your browser:
-```
-http://localhost:3000
+   ```
+   http://localhost:3000
+   ```
 
-Author
+## Author
 This project was developed by Arttu Konttila, a 4th-year Information and Communication Technology student at JAMK University of Applied Sciences.
 
-License
+## License
 This project is licensed under the MIT License. Feel free to use and modify it as needed.
